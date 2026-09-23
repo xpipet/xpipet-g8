@@ -62,7 +62,7 @@ export function XpipetSplash() {
           Bienvenidos
         </h1>
         <p className="-mt-4 text-center text-lg font-medium text-white/90 drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)] sm:text-xl">
-          a <span className="font-bold">xpipet</span>, el cuidado que tu mascota merece
+          <span className="font-bold">XpiPet.</span> Memoria de vida para tu mascota
         </p>
 
         {/* Botones neón transparentes */}
