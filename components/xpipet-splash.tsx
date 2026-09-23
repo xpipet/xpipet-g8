@@ -57,18 +57,6 @@ export function XpipetSplash() {
 
       {/* Contenido flotante */}
       <div className="relative z-10 flex min-h-dvh flex-col items-center justify-center gap-8 px-6 py-12">
-        {/* Logo del perrito con el símbolo pi */}
-        <div className="animate-float drop-shadow-[0_10px_30px_rgba(0,0,0,0.6)]">
-          <Image
-            src="/xpipet-logo.png"
-            alt="Logo de xpipet: cachorro sosteniendo el símbolo pi"
-            width={220}
-            height={220}
-            priority
-            className="h-auto w-40 select-none sm:w-52 md:w-56"
-          />
-        </div>
-
         {/* Texto central con colores dinámicos */}
         <h1 className="animate-rainbow bg-clip-text text-center text-5xl font-extrabold tracking-tight text-transparent drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)] sm:text-6xl md:text-7xl">
           Bienvenidos
